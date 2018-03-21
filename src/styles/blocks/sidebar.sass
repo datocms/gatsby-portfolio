@@ -1,0 +1,62 @@
+.sidebar__title
+  margin-bottom: 20px
+
+  a
+    font-size: 18px
+    text-transform: uppercase
+    font-weight: bold
+    text-decoration: none
+    color: $dark-body-color
+
+    &:hover
+      border-bottom: dotted 1px #9055a2
+
+.sidebar__intro
+  color: $light-body-color
+  font-size: 14px
+  margin-bottom: 20px
+
+  p
+    margin-bottom: 10px
+
+    &:last-child
+      margin-bottom: 0
+
+.sidebar__menu
+  margin-bottom: 20px
+
+  li
+    a
+      text-decoration: none
+      display: block
+      padding-left: 20px
+      color: $base-body-color
+      position: relative
+
+      &:before
+        content: ""
+        position: absolute
+        left: 0
+        top: 50%
+        margin-top: -6px
+        height: 12px
+        width: 12px
+        background: url('https://cdn.rawgit.com/encharm/Font-Awesome-SVG-PNG/master/black/svg/chevron-right.svg')
+        background-position: 50% 50%
+        background-repeat: no-repeat
+        background-size: contain
+        opacity: 0.6
+
+      &:hover
+        color: $active-color
+
+    &.is-active a
+      font-weight: bold
+      color: $active-color
+
+.sidebar__social
+  margin-bottom: 20px
+
+.sidebar__copyright
+  color: $light-body-color
+  font-size: 13px

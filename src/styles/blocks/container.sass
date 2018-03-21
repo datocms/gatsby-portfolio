@@ -1,0 +1,47 @@
+@media screen and (max-width: 899px)
+  .container__sidebar
+    box-sizing: border-box
+    width: 200px
+    height: 100%
+    position: fixed
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    z-index: 2
+    transform: translate3d(-200px, 0, 0)
+    transition: transform 0.2s ease-in-out
+    padding: 20px
+    background-color: $light-bg-color
+
+    .container.is-open &
+      transform: translate3d(0px, 0, 0);
+
+  .container__body
+    transform: translate3d(0px, 0, 0)
+    transition: transform 0.2s ease-in-out
+
+    .container.is-open &
+      transform: translate3d(200px, 0, 0)
+
+@media screen and (min-width: 900px)
+  .container
+    display: flex
+    padding: 0
+
+  .container__mobile-header
+    display: none
+
+  .container__sidebar
+    display: block
+    width: 30%
+    min-width: 320px
+    box-sizing: border-box
+    padding: 40px
+    background-color: $light-bg-color
+
+  .container__body
+    flex: 1
+
+  .container__body--white
+    background-color: white

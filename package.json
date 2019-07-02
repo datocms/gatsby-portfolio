@@ -9,7 +9,7 @@
     "gatsby-image": "^2.0.40",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sass": "^2.0.11",
-    "gatsby-source-datocms": "2.1.4",
+    "gatsby-source-datocms": "^2.1.11",
     "gatsby-source-filesystem": "^2.0.32",
     "gatsby-transformer-remark": "^2.3.12",
     "node-sass": "^4.11.0",

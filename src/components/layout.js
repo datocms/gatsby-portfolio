@@ -8,7 +8,6 @@ import "../styles/index.sass";
 
 const TemplateWrapper = ({ children }) => {
   const [showMenu, setShowMenu] = useState(false);
-  console.log("render", showMenu);
   return (
     <StaticQuery
       query={graphql`
@@ -94,7 +93,6 @@ const TemplateWrapper = ({ children }) => {
                     onClick={e => {
                       e.preventDefault();
                       setShowMenu(!showMenu);
-                      console.log("ciao");
                     }}
                   />
                 </div>

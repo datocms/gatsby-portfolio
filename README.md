@@ -48,6 +48,6 @@ You can find further information about how to integrate DatoCMS with Gatsby in [
 
 This websites uses:
 
-* [Yarn](https://yarnpkg.com/) as package manager;
-* [GatsbyJS](https://github.com/gatsbyjs/gatsby) as website generator;
-* [gatsby-source-datocms](https://github.com/datocms/gatsby-source-datocms) to integrate the website with DatoCMS.
+- [Yarn](https://yarnpkg.com/) as package manager;
+- [GatsbyJS](https://github.com/gatsbyjs/gatsby) as website generator;
+- [gatsby-source-datocms](https://github.com/datocms/gatsby-source-datocms) to integrate the website with DatoCMS.

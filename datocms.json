@@ -1,9 +1,11 @@
 {
-  "name": "Gatsby DatoCMS portfolio",
-  "previewImage": "https://raw.githubusercontent.com/datocms/gatsby-portfolio/master/preview.png",
-  "templateId": "portfolio",
+  "name": "Gatsby Portfolio Website",
+  "description": "Simple portfolio website built with Gatsby.js and DatoCMS source plugin",
+  "previewImage": "https://www.datocms-assets.com/205/1584546486-screen-shot-2020-03-18-at-16-47-38-fullpage.png?crop=top&fit=crop&h=500&w=600&auto=format",
+  "datocmsProjectId": "604",
   "deploymentType": "static",
   "buildCommand": "yarn build",
   "datocmsApiTokenEnvName": "DATO_API_TOKEN",
-  "buildDirectory": "build"
+  "buildDirectory": "public",
+  "livePreviewUrl": "https://adoring-carson-24f43a.netlify.com/"
 }

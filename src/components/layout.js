@@ -90,8 +90,7 @@ const TemplateWrapper = ({ children }) => {
             <div className="container__mobile-header">
               <div className="mobile-header">
                 <div className="mobile-header__menu">
-                  <a
-                    href="#"
+                  <button
                     onClick={e => {
                       e.preventDefault();
                       setShowMenu(!showMenu);
